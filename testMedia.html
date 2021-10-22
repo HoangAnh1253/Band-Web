@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            background: linear-gradient(to right, red ,yellow 50% 50% ,blue );
+            background-repeat: repeat-x;
+            background-position: 0 100%;
+            background-size: 100% 5px;
+        }
+        .tablet{
+            display: none;
+        }
+        .mobile{
+            display: none;
+        }
+
+        @media (min-width: 1024px)  {
+            .pc{
+                 display: block;
+            }
+        }
+
+        @media (min-width: 740px) and (max-width: 1023px){
+            .tablet{
+                 display: block;
+            }
+        }
+        
+        @media (max-width: 739px){
+            .mobile{
+                 display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1><p>PC</p></h1>
+    <div class="tablet">TABLET</div>
+    <div class="mobile">MOBILE</div>
+</body>
+</html>

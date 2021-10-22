@@ -1,0 +1,104 @@
+@media (min-width: 1024px)  {
+    
+}
+
+
+@media (max-width: 1023px)  {
+
+    .contact .contact-form{
+        padding: 15px;
+    }
+
+    .contact .contact-info{
+        line-height: 1.9;
+    }
+
+    #footer .social-list{
+        font-size: 48px;
+    }
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+
+    #footer p a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px){
+   
+}
+
+/*Mobile*/
+@media (max-width: 739px){
+    #header{
+        overflow: hidden;
+    }
+
+    .s-button-full{
+        width: 100%;
+        text-align: center;
+        padding: 15px 16px;
+    }
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    #header .search-button{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #header .menu-button{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #nav > li {
+        display: block;
+        width: auto;
+        position: relative;
+    }
+
+    #nav >li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        background-color: #333;
+        position: initial;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding-left: 20px;
+    }
+    #nav{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    #content .mobile-item{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #content .item-image{
+        width: 60%;
+    }
+
+    .tour-section .place{
+        width: 100%;
+    }
+
+    #contact .contact-form{
+        margin-top: 16px;
+    }
+}
